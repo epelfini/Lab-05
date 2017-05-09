@@ -1,0 +1,105 @@
+Last login: Tue May  2 12:10:32 on console
+grc-spain:~ epelfini$ cd desktop
+grc-spain:desktop epelfini$ cd 338_03_L5_epelfini
+grc-spain:338_03_L5_epelfini epelfini$ pwd
+/Users/epelfini/desktop/338_03_L5_epelfini
+grc-spain:338_03_L5_epelfini epelfini$ git init
+Initialized empty Git repository in /Users/epelfini/Desktop/338_03_L5_epelfini/.git/
+grc-spain:338_03_L5_epelfini epelfini$ git add -A
+grc-spain:338_03_L5_epelfini epelfini$ git commit -m  "add all files"
+[master (root-commit) 1895656] add all files
+ 5 files changed, 14 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100755 Lab 5 text.docx
+ create mode 100644 css/styles.css
+ create mode 100644 images/Logo.gif
+ create mode 100644 index.html
+grc-spain:338_03_L5_epelfini epelfini$ git remote add origin https://github.com/epelfini/Lab-05.git
+grc-spain:338_03_L5_epelfini epelfini$ git push -u origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 33.95 KiB | 0 bytes/s, done.
+Total 9 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/epelfini/Lab-05.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-spain:338_03_L5_epelfini epelfini$ git commit -am "add html"
+[master cbac2c1] add html
+ 3 files changed, 80 insertions(+), 1 deletion(-)
+grc-spain:338_03_L5_epelfini epelfini$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.20 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/epelfini/Lab-05.git
+   1895656..cbac2c1  master -> master
+grc-spain:338_03_L5_epelfini epelfini$ git commit -am "fix css issues"
+[master 4d46e34] fix css issues
+ 2 files changed, 46 insertions(+), 10 deletions(-)
+grc-spain:338_03_L5_epelfini epelfini$ git oush
+git: 'oush' is not a git command. See 'git --help'.
+
+Did you mean this?
+	push
+grc-spain:338_03_L5_epelfini epelfini$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 790 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/epelfini/Lab-05.git
+   cbac2c1..4d46e34  master -> master
+grc-spain:338_03_L5_epelfini epelfini$ git commit -am "add nav bar"
+[master cace1b4] add nav bar
+ 3 files changed, 34 insertions(+)
+grc-spain:338_03_L5_epelfini epelfini$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 830 bytes | 0 bytes/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/epelfini/Lab-05.git
+   4d46e34..cace1b4  master -> master
+grc-spain:338_03_L5_epelfini epelfini$ git commit -am "stylize nav bar and add comments"
+[master f4dd020] stylize nav bar and add comments
+ 2 files changed, 12 insertions(+), 8 deletions(-)
+grc-spain:338_03_L5_epelfini epelfini$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 599 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/epelfini/Lab-05.git
+   cace1b4..f4dd020  master -> master
+grc-spain:338_03_L5_epelfini epelfini$ git log
+commit f4dd02071f25428a1d21e078f4c69aff786db3f2
+Author: Elaina Pelfini <lainy.pelfini3@gmail.com>
+Date:   Tue May 2 14:33:50 2017 -0700
+
+    stylize nav bar and add comments
+
+commit cace1b43d65dd2efaf732db6c3c4fb56c143dd94
+Author: Elaina Pelfini <lainy.pelfini3@gmail.com>
+Date:   Tue May 2 14:26:16 2017 -0700
+
+    add nav bar
+
+commit 4d46e347bfce0d359e352131d71e37a036e31873
+Author: Elaina Pelfini <lainy.pelfini3@gmail.com>
+Date:   Tue May 2 14:08:38 2017 -0700
+
+    fix css issues
+
+commit cbac2c1c71f62d41403fa308cc6a33b04c2c14b5
+Author: Elaina Pelfini <lainy.pelfini3@gmail.com>
+Date:   Tue May 2 13:27:00 2017 -0700
+
+    add html
+:

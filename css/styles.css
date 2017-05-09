@@ -42,6 +42,7 @@ tr:nth-child(2) {
 .image {
 	border: 0px;
 	vertical-align: bottom;
+	/*got ride of the border around the images*/
 }
 
 span {
@@ -49,6 +50,7 @@ span {
 	font-style: italic;
 }
 
+/* start of nav bar */
 nav {
 	background-color: lightgrey;
 	width: 100%;
@@ -74,3 +76,43 @@ a:link {
 a:hover {
 	color: white;
 }
+
+/*start of new code for the day*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
